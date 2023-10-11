@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dee Chuks-portfolio Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/android-chrome-512x512.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">DCM<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="#reviews" class="navbar-link">Reviews.</a>
+          </li>
+           <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/hero-banner.jpg" media="(min-width: 768px)">
+            <source srcset="./assets/images/hero-banner.jpg" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner.jpg" alt="A man with an atire with a happy expression"
+              class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">We Design & Build Creative Products</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+
+              <div class="tooltip">instagram</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+
+              <div class="tooltip">Tiktok</div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+
+              <div class="tooltip">Whatsapp</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                5+ <strong>Years of Standard Experience in Web Designing</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                7+ <strong>Years of Standard Experience in Graphic Designing</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                3+ <strong>Neutral Experience in Video Creation</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                5+ <strong>Years of Experience in Ai Potrait Designing</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                95+ <strong>Satisfied Clients</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+           
+           <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                  100+ <strong> Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.jpg" alt="A man in a alice blue shirt with a thinking expression" width="100%">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+            Hi! I’m Dee Chuks, and I’m a Web Designer, a Graphic Designer, an AI Poitrait Designer and also a video creator who has passion and the zeal for building, clean,reliable and creative project with my intuitive
+            functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
+            curious about
+            learning new skills, tools, and concepts. In addition to working on various solo full stack creative projects, I have
+            worked with
+            creative teams which involves daily stand-ups and communications, Creative Africa and project management,and hoping to work with you.
+          </p>
+
+          <div class="btn-group">
+              <button class="btn btn-secondary">Hire me</button>
+
+            <button class="btn btn-primary">See more</button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Exclusive Skills Included?</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and creative products such as Graphic Designs, Logo Designs, Videos,AI Potrait images and responsive websites that showcases creativity at its finest and brings satisfaction to a  client            
+            with those technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+             <center>
+              <div class="skill-card">
+                <div class="tooltip">Video-Creation</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/video-creation.jpg" width="70%" alt="TypeScript logo">
+                </div>
+              </div>
+              </center>
+            </li>
+            <li>
+            <div class="skill-card">
+                <div class="tooltip">AI POTRAIT IMAGES</div>
+                <center>
+                <div class="card-icon">
+                  <img src="./assets/images/AI POTRAIT.jpg" width="80%"  alt=" AI POTRAIT IMG logo">
+                </div>
+                </center>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Graphic Designing</div>
+                        <center>    
+                <div class="card-icon">
+                  <img src="./assets/images/images.jpg" width="80%" height="60vh" alt="jQuery logo">
+                </div>
+                </center>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+            
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>            
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>           
+
+           </ul>
+
+          <ul class="tools-list">
+
+           <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bracket</div>
+                
+                 <center>
+                <div class="card-icon">
+                  <img src="./assets/images/bracket.jpg" width="60%" alt="Webpack logo">
+                </div>
+                </center>
+              </div>
+            </li>
+
+
+            <li>
+             <center>
+              <div class="skill-card">
+                <div class="tooltip">Adobe Premier Pro</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/premier pro.png" width="60%"alt="premier pro logo">
+                </div>
+              </div>
+                </center>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe Illustrator</div>
+                <center>
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-illustrator.ico" width="67%"  alt=" Adobe Illustrator logo">
+                </div>
+                </center>
+              </div>
+            </li>
+            <li>
+            <div class="skill-card">
+                <div class="tooltip">Capcut</div>
+                <center>
+                <div class="card-icon">
+                  <img src="./assets/images/capcut.png" width="60%"  alt=" Capcut logo">
+                </div>
+                </center>
+              </div>
+            </li>
+            <li>
+            
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+           <li>
+             <center>
+              <div class="skill-card">
+                <div class="tooltip">Instant-Potrait</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/instant-potrait.jpg" width="60%" alt="Instant-Potrait">
+                  
+                </div>                
+              </div>
+              </center>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+      
+      
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Works</p>
+
+              <h2 class="h3 section-title">See My Works Which Will Blow your Mind!</h2>
+
+              <p class="section-text">
+                We develop the best of the best creative products that brings satisfaction to our client and websites that serves for a long-period of time.You can also check for more designs and exclusive projects in my social media handles.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/skin-care.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Skin care Designs</h3>
+
+                <time class="publish-date" datetime="2022-05">May 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/logo-design-1.jpeg" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Logo Design</h3>
+
+                <time class="publish-date" datetime="2022-09">October 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/b1.jpg" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Travel Website</h3>                
+
+                <time class="publish-date" datetime="2023-09">September 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Medical%20Design.jpeg" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Medical Outreach Design</h3>
+
+                <time class="publish-date" datetime="2022-09">September</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/potrait.jpg" class="w-100 hg-10vh">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title"> Female Ai Potrait</h3>
+
+                <time class="publish-date" datetime="2022-10">October 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Male%20potrait.jpg" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Male AI Potrait</h3>
+
+                <time class="publish-date" datetime="2022-10">October 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/tech-recap.png" class="w-100">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Logo Design</h3>
+
+                <time class="publish-date" datetime="2022-08">August 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+           <a  href="">
+            <button class="load-more">Load more work</button>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+      <!--
+         -#REVIEWS
+      -->
+      <section class="reviews" id="reviews">
+  <div class="review-content section-content">
+<p class="section-subtitle">Reviews</p>
+<h2 class="h3 section-title">What Customers Say</h2>
+<p class="section-text">
+What our satisfied customers say about my creative works.
+</p>
+<div class="card-content">
+<div class="row">
+<h5><img src="./assets/images/Customer-2.jpg" alt="">Precious</h5>                
+Dee Chuks Media is a true definition of creativity at it's finest,Good luck with your works.
+</div>
+<div class="row">
+<h5><img src="./assets/images/Customer-1.jpg" alt="">Marvelous</h5>
+<div class="rating">
+</div>
+You continue to amaze me with your mind blowing ideas and it shows in your work,I can always count on you.
+</div>
+<div class="row">
+<h5><img src="./assets/images/Customer-3.jpg" alt="">Chukwukadibia</h5>
+Dee Chuks has really brought creativity to my door through his creative works,You are the best in creativity.
+</div>            
+</div>
+</div>
+</section>
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+<section class="contact" id="contact">
+<div class="contact-content section-content">
+<p class="section-subtitle">Contact</p>
+<h2 class="h3 section-title">Have You Any Project? Please Drop a Chat</h2>
+<p class="section-text">
+Get in touch for your enquries and creative product at your door step. Fill out the form and i’ll be in touch as soon as possible and lets know how we can help you.
+</p>
+<ul class="contact-list">
+<li class="contact-list-item">
+<div class="contact-item-icon">
+<ion-icon name="location-outline"></ion-icon>
+</div>
+<div class="wrapper">
+<h3 class="h4 contact-item-title">Address:</h3>
+<address class="contact-info">
+ NEW HEAVEN ENUGU NIGERIA
+</address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:+234835313088" class="contact-info">+2348035313088</a>
+
+                <a href="tel:+2348064791172" class="contact-info">+234806471172</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="https://" class="contact-info">deechuksmedia@gmail.com</a>
+
+                <a href="deechuksmedia@gmail.com" class="contact-info">deechuksmedia@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">                
+
+                <li>
+                  <a href="http://www.facebook.com/profile.php?id=100090414974833" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                
+                
+                 <li>
+                  <a href="https://wa.link/vlejel" class="contact-social-link">
+                    <div class="tooltip">Whatsapp</div>
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+                 <li>
+                  <a href="https://www.instagram.com/d_eechuks/" class="contact-social-link">
+                    <div class="tooltip">Instagram</div>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@deechuks23/video/7248902035528043782?is_from_webapp=1&sender_device=pc&web_id=7287528700210464262" class="contact-social-link">
+                    <div class="tooltip">Tiktok</div>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+                
+                
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="https://formsubmit.co/deechuksmedia@gmail.com" method="post" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Dee Chuks" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g Deechuks@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Chat</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#home">
+         Dee Chuks Media         
+         <span>.</span>
+        </a>
+      </p>
+      <div>
+          Creativity at its Finest
+      </div>
+
+      <p class="copyright">
+        &copy; 2023 <a href="#home">DCM</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
